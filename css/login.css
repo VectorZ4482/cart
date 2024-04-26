@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+
+
+.login-container {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.login-container .form .login {
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+
+.form-container {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-container input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form-container button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #0b1111;
+  background-image: linear-gradient(45deg, #070808, #080d0e);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.form-container .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form-container .message a {
+  color: #edf0ed;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* You can leave the body styling as it is or modify it as needed */
+/*
+body {
+  background-color: #000000;
+  background-image: linear-gradient(45deg, #000000, #000000);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*/
+
+.form-heading{
+    color: black;
+}
+.form-para{
+    color: black;
+}

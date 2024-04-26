@@ -1,0 +1,45 @@
+.review {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .box {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 10px;
+  }
+  
+  .user img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .client {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+
+
+
+

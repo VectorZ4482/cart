@@ -1,0 +1,164 @@
+* {
+    font-family: Nunito, sans-serif;
+}
+
+.responsive-container-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+.res-block{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-blk {
+    padding: 10px;
+    line-height: 25px;
+}
+
+
+.text-blk.headingText {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(199, 199, 199);
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.text-blk.subHeadingText {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-right: 10px;
+   
+
+}
+
+.text-blk.description {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.explore {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    background-color: rgb(31, 30, 30);
+    padding: 8px 40px;
+    cursor: pointer;
+}
+
+.explore:hover {
+    background-color: rgb(65, 29, 29);
+    color: white;
+}
+
+
+.responsive-container-block.Container {
+    margin: 80px auto 50px auto;
+    max-width: 1320px;
+    padding: 10px;
+}
+
+.res-block.res-cont {
+    margin: 80px auto 50px auto;
+    max-width: 1320px;
+    padding: 10px;
+    
+}
+
+.responsive-container-block.Container.bottomContainer {
+    flex-direction: row-reverse;
+    position: static;
+}
+
+
+
+
+
+.allText.aboveText {
+    margin-left: 40px;
+}
+
+
+.mainImg {
+    color: black;
+    width: 100%;
+    height: auto;
+    margin-bottom: -70px;
+    padding-top: 50px;
+    padding-left: 100px;
+   
+}
+.mainImgleft{
+    color: black;
+    width: 100%;
+    height: auto;
+    margin-bottom: -70px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.mainImg2{
+    margin-right: 110px;
+    margin-top: 80px;
+}
+
+
+
+.allText {
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.allText.bottomText {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    margin-top: 75px;
+    text-align: left;
+    width: 40%;
+    align-items: flex-start;
+}
+
+.text-blk.subHeadingText {
+    color: rgb(102, 102, 102);
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 0; 
+    padding-right: 10px;
+}
+
+.text-blk.description {
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 50px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+.sub-text{
+    color: rgb(180, 180, 180);
+}
+
+.des-text{
+    color: rgb(133, 133, 133);
+}
